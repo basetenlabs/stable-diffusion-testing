@@ -1,6 +1,6 @@
 [core]
     remote = pull
 ['remote "push"']
-    url = s3://baseten-public/models/dvc
+    url = s3://baseten-public-models-test/dvc
 ['remote "pull"']
-    url = https://baseten-public/models/dvc
+    url = https://baseten-public-models-test.s3.us-west-2.amazonaws.com/dvc
